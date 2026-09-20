@@ -91,7 +91,7 @@ public class StreamPractice {
         return peopleList.stream()
                 .filter(Objects::nonNull)
                 .filter(person -> person.getAge() >= fromAge
-                && person.getAge()<= (Person.Sex.MAN.equals(person.getSex())
+                && person.getAge() <= (Person.Sex.MAN.equals(person.getSex())
                 ? maleToAge : femaleToAge))
                 .collect(Collectors.toList());
 
