@@ -30,6 +30,3 @@ public class CandidateValidator implements Predicate<Candidate> {
         return endYear - startYear;
     }
 }
-
-    //write your code here
-
